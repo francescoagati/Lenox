@@ -4,5 +4,6 @@
 -cp src/test/haxe
 -cp src/main/haxe
 hxml/libs.hxml
--neko lensesmacro.n
--cmd neko lensesmacro.n
+-js lensesmacro.js
+-dce full
+-D analyzer
